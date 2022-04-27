@@ -64,7 +64,19 @@ defmodule Routes do
     send_resp(conn, 200, Jason.encode!(%{"status" => "OK"}))
   end
 end
-``` 
+```
+
+## Folder structure
+```
+├── lib
+│   ├── article_api_elixir
+│   │   ├── application.ex
+│   │   ├── article_service
+│   │   │   └── article.ex
+│   │   ├── routes.ex
+│   │   └── service.ex
+│   └── article_api_elixir.ex
+```
 
 ### Run Project
 ```sh
