@@ -94,3 +94,14 @@ https://hexdocs.pm/elixir/1.13/compatibility-and-deprecations.html
 
 3. Setup config buildpack erlang
 https://www.erlang.org/downloads
+
+4. Setup port heroku
+Because heroku using random port env. We little updates in childern:
+```ex
+port = (System.get_env("PORT") || "8080") |> String.to_integer()
+
+children = [
+      {Plug.Cowboy, scheme: :http, plug: Routes, options: [port: port]},
+      {ArticleApi.ArticleService, []}
+    ]
+```
