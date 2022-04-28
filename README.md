@@ -78,7 +78,11 @@ end
 │   └── article_api_elixir.ex
 ```
 
-### Run Project
+## Run Project
 ```sh
 mix run --no-halt
 ```
+
+## Deployment
+Deploy with Heroku: https://www.youtube.com/watch?v=WdfIUyLaa7E
+https://github.com/HashNuke/heroku-buildpack-elixir
