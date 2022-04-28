@@ -1,6 +1,6 @@
 # ArticleApiElixir
 
-Projects: https://article-api-elixir.herokuapp.com/article
+Projects: https://article-api-elixir.herokuapp.com
 
 ## Installation
 
