@@ -83,6 +83,14 @@ end
 mix run --no-halt
 ```
 
-## Deployment
+## Deployment to Heroku
 Deploy with Heroku: https://www.youtube.com/watch?v=WdfIUyLaa7E
+
+1. Setup buildpack
 https://github.com/HashNuke/heroku-buildpack-elixir
+
+2. Setup config buildpack elixir
+https://hexdocs.pm/elixir/1.13/compatibility-and-deprecations.html
+
+3. Setup config buildpack erlang
+https://www.erlang.org/downloads
