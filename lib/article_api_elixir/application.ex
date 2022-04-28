@@ -9,7 +9,7 @@ defmodule ArticleApiElixir.Application do
   @impl true
   def start(_type, _args) do
 
-    port = System.get_env("PORT") || "8080" |> String.to_integer()
+    port = (System.get_env("PORT") || "8080") |> String.to_integer()
 
     children = [
       {Plug.Cowboy, scheme: :http, plug: Routes, options: [port: port]},
