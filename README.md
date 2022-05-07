@@ -1,5 +1,7 @@
 # ArticleApiElixir
 
+![image](/assets/banner.png)
+
 Projects: https://article-api-elixir.herokuapp.com
 
 ## Installation
